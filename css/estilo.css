@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h1,h2,h3,h4{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+}
+h5{
+	font-size: 16px;
+}
+body{
+	background-color: #EEE5E9;
+	font-family: 'Open Sans', sans-serif;
+}
+#cabecalho{
+	background-color: #3D315B;
+	padding: 10px 0px;
+	display: flex;
+	align-items: center;
+}
+#logo img{
+	width: 80px;
+	margin: 20px;
+}
+#menu{
+	font-weight: bold;
+	justify-content: space-around;
+	display: flex;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+#menu a:link, a:visited{
+	color: #EEE5E9;
+	text-decoration: none;
+}
+#menu a:hover{
+	background-color: #5C4A89;
+}
+#menu a{
+	padding: 8px 12px;
+}
+#vacinometro{
+	text-align: center;
+	margin: 10px;
+}
+#vacinometro a{
+	color: #5C4A89;
+	font-size: 25px;
+	padding: 10px;
+}
+#area_vacina, #area-tipos, #area-meu-texto{
+	margin: 25px 65px 0px 65px;
+	background-color: #DDC7D1;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 18px;
+	text-align: justify;
+}
+#area_vacina a{
+	color: #3D315B;
+}
+#area-tipos a{
+	color: black;
+}
+#vacina-salva img{
+	width: 80%;
+	height: 800px;
+	border: #DDC7D1 solid 10px;
+}
+#vacina-salva{
+	text-align: center;
+	padding: 10px;
+	margin: 60px;
+}
+#faq-principal a{
+	color: black;
+}
+.opinioes-principal{
+	display: flex;
+	justify-content: space-evenly;
+}
+.opinioes-principal video{
+	background-color: #DDC7D1;
+	border-radius: 10px;
+	padding: 10px;
+}
+.banner{
+	border-radius: 20px;
+}
+.imgs{
+	margin: 20px;
+	text-align: center;
+}
+.video{
+	text-align: center;
+}
+.fakenews{
+	border-radius: 10px;
+	margin: 20px 90px 15px 90px;
+	padding: 30px;
+	font-size: 18px;
+	text-align: justify;
+	background-color: #DDC7D1;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	height: fit-content;
+}
+.fakenews img{
+	width: 250px;
+	margin: 20px 30px 0px 30px;
+	padding: 5px;
+}
+.rodape{
+	margin-top: 70px;
+	background-color: #3D315B;
+	color: #EEE5E9;
+	text-align: center;
+	padding: 15px;
+	font-size: 25px;
+}
+.texto a{
+	color: #3D315B;
+}
+.esquerda{
+	background-color: #DDC7D1;
+	border-radius: 10px;
+	padding: 60px;
+	width: 50%;
+	font-size: 18px;
+	text-align: justify;
+	margin: 30px 0px ;
+}
+.direita{
+	background-color: #DDC7D1;
+	border-radius: 10px;
+	padding: 60px;
+	font-size: 18px;
+	text-align: justify;
+	margin-left: auto;
+	width: 50%;
+}
+.vacina{
+	margin: 30px;
+}
+.banner{
+  width: 800px;
+  height: 267px;
+  margin: 30px auto;
+  animation: slides 7s infinite;
+  background-size: cover;
+}
+@keyframes slides{
+
+0%, 50%{
+ background-image: url(../imagens/vacinometro.jpeg);
+ repeat: no-repeat;
+}
+
+51%, 100%{ background-image: url(../imagens/vacinometro2.jpeg);
+ repeat: no-repeat;
+}}
